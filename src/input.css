@@ -1,14 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto&display=swap');
 
 @layer components {
 *{
-    @apply font-dm-sans;
+    @apply font-dmsans;
 }
   .btn-nav {
-    @apply text-base font-semibold font-dm-sans;
+    @apply text-base font-semibold;
   }
   .btn-bar{
     @apply font-semibold text-slate-500 mr-4;
@@ -56,7 +55,7 @@
     @apply bg-slate-200 p-3 rounded-full mr-4;
   }
   .title-category{
-    @apply font-bold text-xl font-roboto;
+    @apply font-bold text-xl;
   }
   .desc-category{
     @apply text-slate-400 font-medium;

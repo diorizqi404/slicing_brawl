@@ -545,7 +545,6 @@ video {
 }
 
 .btn-nav {
-  font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -649,7 +648,6 @@ video {
 }
 
 .title-category {
-  font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -841,6 +839,26 @@ video {
   top: 1.75rem;
 }
 
+.left-\[220px\] {
+  left: 220px;
+}
+
+.left-\[14px\] {
+  left: 14px;
+}
+
+.left-\[140px\] {
+  left: 140px;
+}
+
+.left-\[135px\] {
+  left: 135px;
+}
+
+.left-\[95px\] {
+  left: 95px;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -862,6 +880,10 @@ video {
 
 .mb-16 {
   margin-bottom: 4rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mr-0 {
@@ -894,10 +916,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .block {
@@ -952,6 +970,10 @@ video {
   width: 9rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -996,12 +1018,16 @@ video {
   width: 100%;
 }
 
-.w-6 {
-  width: 1.5rem;
+.w-\[125px\] {
+  width: 125px;
 }
 
-.w-4 {
-  width: 1rem;
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[360px\] {
+  width: 360px;
 }
 
 .border-collapse {
@@ -1136,12 +1162,8 @@ video {
   text-align: center;
 }
 
-.font-dm-sans {
+.font-dmsans {
   font-family: 'DM Sans', sans-serif;
-}
-
-.font-roboto {
-  font-family: 'Roboto', sans-serif;
 }
 
 .text-4xl {
@@ -1191,6 +1213,10 @@ video {
 
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-purple-600 {
